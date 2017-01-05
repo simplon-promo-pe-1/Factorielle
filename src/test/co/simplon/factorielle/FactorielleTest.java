@@ -7,10 +7,11 @@ import org.junit.Test;
 public class FactorielleTest {
 
 	@Test
-	public void comportementValeur1() {
+	public void leResultatDeFactorielleUnDoitEtreUn() {
 		Factorielle valeurUn = new Factorielle ();
+		long n=1;
 		
-		long resultat = valeurUn.calculer(1);
+		long resultat = valeurUn.calculer(n);
 		
 		assertEquals(1, resultat);
 	}
